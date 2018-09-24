@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>COMP2084 - Lab 2</h2>
+<ul>
+    <p>Our products</p>
+    <li>@Html.ActionLink("Laptop", "Product", "Index")</li>
+    <li>@Html.ActionLink("Tablet", "Product", "Index")</li>
+    <li>@Html.ActionLink("Desktop", "Product", "Index")</li>
+</ul>
